@@ -315,7 +315,6 @@ body {
 @media (max-width: 800px) {
     .contenedor-general {
         width: 100%;
-        height: 100%;
         margin: 0px;
     }
 }
@@ -346,7 +345,6 @@ body {
         grid-template-columns: auto auto auto;
     }
 
-
     .SubConte4 {
         margin-right: 0px;
         margin-left: 0px;
@@ -360,102 +358,8 @@ body {
 }
 
 @media (max-width: 600px) {
-    .TituloConte2 h1 {
+.TituloConte2 h1 {
         letter-spacing: normal;
-        margin: 0;
+        margin:0;
     }
-}
-
-@media (max-width: 500px) {
-    .contenedor-general {
-        width: 100%;
-
-        margin: 0;
-    }
-
-
-    .subConte1 img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .subConte2 {
-        grid-template-columns: 1fr;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .sub-subconte2-1 {
-        align-items: center;
-    }
-
-    .invoice {
-        justify-content: center;
-    }
-
-    .p {
-        align-items: center;
-    }
-
-     .subConte3 {
-
-        min-width: 500px;
-    }
-
-    .Conte2-SubConte3 {
-        min-width: 500px;
-    }
-    .tabla-scroll {
-        width: 100%;
-        overflow-x: auto;
-    }
-}
-
-@media (max-width: 400px) {
-    .subConte1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        padding: 0px;
-
-    }
-
-    .sub-subconte1 {
-        display: flex;
-        justify-content: center;
-    }
-
-    .sub-subconte1 img {
-        height: 60px;
-        width: 60px;
-    }
-
-    .sub-subconte2 {
-        font-size: 20px;
-    }
-
-    .subConte2 {
-        font-size: 25px
-    }
-    .sub-subconte2-1{
-margin-bottom:50px;
-    }
-    .sub-subconte2-1 p {
-        font-size: 18px;
-    }
-
-    .invoice p{
-        font-size: 20px;
-        padding-bottom: 2px;
-    }
-    .p{
-        font-size: 15px
-    }
-.Payment{
-    display: flex;
-    flex-direction: column;
-
-}
-
 }
