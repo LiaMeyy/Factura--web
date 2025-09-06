@@ -92,7 +92,7 @@ body {
 .sub-subconte2-1 {
     display: flex;
     flex-direction: column;
-    height: 163px;
+    height: 150px;
     gap: 15px;
 }
 
@@ -104,7 +104,7 @@ body {
 .sub-subconte2-2 {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 30px;
     width: 100%;
 }
 
@@ -165,7 +165,7 @@ body {
     grid-template-columns: 6fr 1fr;
     gap: 30px;
     height: 100%;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-left: 40px;
     margin-right: 30px;
 }
@@ -278,7 +278,7 @@ body {
 .Total2 {
     background-color: #474f51;
     display: flex;
-    padding-top: 70px;
+    padding-top: 30px;
     color: white;
     padding-left: 40px;
 }
@@ -295,26 +295,27 @@ body {
 
 @media (max-width: 1600px) {
     .contenedor-general {
-        width: 50%;
+        width: 60%;
     }
 
 }
 
 @media (max-width: 1300px) {
     .contenedor-general {
-        width: 65%;
+        width: 75%;
     }
 }
 
 @media (max-width: 1000px) {
     .contenedor-general {
-        width: 80%;
+        width: 85%;
     }
 }
 
 @media (max-width: 800px) {
     .contenedor-general {
         width: 100%;
+        height: 100%;
         margin: 0px;
     }
 }
@@ -329,12 +330,14 @@ body {
     .subConte2 {
         grid-template-columns: 1fr 1fr;
         margin: 0px;
+        padding: 0 10px;
     }
 
     .SubConte6 {
-        grid-template-columns: 1fr;
+        grid-template-columns: 8fr 1fr;
         margin-right: 0px;
         margin-left: 0px;
+        padding: 20px 20px;
     }
 
     .TituloConte2 h1 {
@@ -345,6 +348,7 @@ body {
         grid-template-columns: auto auto auto;
     }
 
+
     .SubConte4 {
         margin-right: 0px;
         margin-left: 0px;
@@ -353,13 +357,112 @@ body {
     .SubConte5 {
         margin-right: 10px;
         margin-left: 0px;
+        padding: 0 20px;
+    }
+    .SubConte6 {
+        grid-template-columns: 100fr 1fr
     }
 
 }
 
 @media (max-width: 600px) {
-.TituloConte2 h1 {
+    .TituloConte2 h1 {
         letter-spacing: normal;
-        margin:0;
+        margin: 0;
     }
+}
+
+@media (max-width: 500px) {
+    .contenedor-general {
+        width: 100%;
+
+        margin: 0;
+    }
+
+
+
+    .subConte1 img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .subConte2 {
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sub-subconte2-1 {
+        align-items: center;
+    }
+
+    .invoice {
+        justify-content: center;
+    }
+
+    .p {
+        align-items: center;
+    }
+
+     .subConte3 {
+
+        min-width: 500px;
+    }
+
+    .Conte2-SubConte3 {
+        min-width: 500px;
+    }
+    .tabla-scroll {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .subConte1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+
+    }
+
+    .sub-subconte1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sub-subconte1 img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .sub-subconte2 {
+        font-size: 20px;
+    }
+
+    .subConte2 {
+        font-size: 25px
+    }
+    .sub-subconte2-1{
+margin-bottom:50px;
+    }
+    .sub-subconte2-1 p {
+        font-size: 18px;
+    }
+
+    .invoice p{
+        font-size: 20px;
+        padding-bottom: 2px;
+    }
+    .p{
+        font-size: 15px
+    }
+.Payment{
+    display: flex;
+    flex-direction: column;
+
+}
+
 }
